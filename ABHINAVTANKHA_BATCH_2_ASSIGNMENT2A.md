@@ -978,7 +978,9 @@ eip_out = imresize(eip_out, (300, 300))
 # Write the tinted image back to disk
 imsave('assets/cat_tinted.jpg', eip_out)
 ```
-(dtype('uint8'), (400, 248, 3))
+(dtype('uint8'), (400, 248, 3)
+
+)
 ![image_cat](https://github.com/krypten/MLBR_EIP/raw/2e08ea7727c1870151f4b60c56e35d24367e2047/assets/cat.jpg)
 
 ![image_cat2](https://github.com/krypten/MLBR_EIP/raw/2e08ea7727c1870151f4b60c56e35d24367e2047/assets/cat_tinted.jpg)
